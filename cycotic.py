@@ -94,6 +94,7 @@ if __name__ == "__main__":
     remove = "--remove" in sys.argv
 
     # List of sample assembly instructions
+    # these instructions are broken, insert your own non-operationally modifying instructions
     instructions = [
         "nop",
         "dec rax",
